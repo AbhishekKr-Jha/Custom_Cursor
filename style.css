@@ -1,0 +1,26 @@
+*{ margin: 0; padding: 0;box-sizing: border-box;font-family: 'Gilroy'; color: white;  }
+html,body{ height: 100%;width: 100%;  }
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#c{
+    border-radius: 60%;
+background-color: white;
+mix-blend-mode: difference;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    transition: all linear 0.1s;
+}
+h1{
+    font-size: 10vw;
+    font-weight: 800;
+}
